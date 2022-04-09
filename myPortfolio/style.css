@@ -57,8 +57,8 @@ body {
   #profile-pic {
     width: 500px;
     height: 325px;
-    border-radius: 20%;
-    margin: 5% auto;
+    border-radius: 25%;
+    margin: 10% auto;
     grid-column: 2/3;
   }
 
