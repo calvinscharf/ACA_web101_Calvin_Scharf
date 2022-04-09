@@ -55,7 +55,7 @@ body {
   }
   /* This is an ID selector */
   #profile-pic {
-    width: 450px;
+    width: 500px;
     height: 300px;
     border-radius: 20%;
     margin: 5% auto;
