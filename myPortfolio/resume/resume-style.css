@@ -1,3 +1,6 @@
-*{
+body{
   background-color: aqua;  
+}
+article{
+    display:flex;
 }
