@@ -1,6 +1,21 @@
 body{
   background-color: aqua;  
 }
-article{
-    display:flex;
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+
 }
+article{
+    
+}
+.section1{
+  grid-area: 1/2/2/3;
+}
+.section2{
+  grid-area: 1/1/2/2;
+}
+img{
+  height: 200pt;
+  width: 200pt;
+  grid-area: 1/1/2/2;}
