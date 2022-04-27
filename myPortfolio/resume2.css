@@ -1,0 +1,33 @@
+body{
+    background-color: #2196F3;  
+  }
+  section{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 50px;
+  
+  }
+  .box{
+    width: 500px;
+    height: 900px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+  
+  }
+  article{
+      
+  }
+  .section1{
+    grid-area: 1/2/2/3;
+  }
+  .section2{
+    grid-area: 2/2/3/3;
+  }
+  figure>img{
+    height: 150pt;
+    width: 150pt;
+    grid-area: 1/1/2/2;}
+    h1{
+      grid-area: 1/2/2/3;
+    }
