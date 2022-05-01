@@ -1,7 +1,9 @@
 body {
-    color: #222222;
+    color: #164d85;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    /* display: flex; */
+    background-color: aquamarine;
 }
 
 .content-footer,
@@ -12,7 +14,7 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../img/code.jpg');
+  /* background-image: url('../img/code.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,7 +22,7 @@ body {
 .masthead-intro {
     margin-bottom: 0.1em;
     font-size: 2em;
-    color: #ffffff;
+    color: #070606;
 }
 
 .masthead-heading {
@@ -29,7 +31,7 @@ body {
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #0a0909;
 }
 
 .details {
@@ -67,4 +69,9 @@ section > h1 {
 .social > li {
   display: inline-block;
   margin: 0 5px;
+}
+img {
+  width: auto;
+  height: 500px;
+  border: 2px solid black;
 }
