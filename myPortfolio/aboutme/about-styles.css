@@ -13,22 +13,22 @@ body {
 }
 
 .masthead {
-  padding: 6em 0;
+  /* padding: 6em 0; */
   /* background-image: url('../img/code.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .masthead-intro {
-    margin-bottom: 0.1em;
+    /* margin-bottom: 0.1em; */
     font-size: 2em;
     color: #070606;
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
+    /* margin-top: -0.2em; */
+    /* font-weight: bold; */
+    font-size: 3em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #0a0909;
@@ -74,4 +74,8 @@ img {
   width: auto;
   height: 500px;
   border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  border-radius: 20%;
 }
