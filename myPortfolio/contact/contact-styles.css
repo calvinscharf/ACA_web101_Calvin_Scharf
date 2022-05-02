@@ -1,0 +1,20 @@
+body{
+    background: rgb(0, 179, 255);
+    color:rgb(0, 0, 0)
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.middle{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

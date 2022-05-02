@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact-styles.css">
   <title>Document</title>
 </head>
 <body>
-    <form action="results.html" method="GET" enctype="multipart/form-data">
+  <section class="container">
+    <article class="left">
+
+    <form action="results.html" method="GET" enctype="multipart/form-data">    
       <div>
         <label for="name">Name</label>
         <input type="text" name="name" id="name" >
@@ -27,6 +31,8 @@
       <label for="bio">Comment</label>
       <textarea id="bio" name="bio" maxlength="500" placeholder="comment"></textarea>
     </div>
+  </article>
+  <article class="middle">
     <div>
       How did you hear about me?
       <div>
@@ -61,6 +67,8 @@
         <input type="radio" name="gender" id="other" value="other">
       </div>
     </div>
+  </article>
+  <article class="right">
     <div>
       <label for="eyeColor">Eye Color</label>
       <select name="eyeColor" id="eyeColor" multiple>
@@ -97,7 +105,9 @@
     </div>
     <button type="reset">Reset</button>
     <button type="submit">Submit</button>
+  </article>
   </form>
+  </section>
   <!-- <script src="scripts.js"></script> -->
 </body>
 </html>
